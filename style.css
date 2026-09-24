@@ -737,7 +737,7 @@ padding-left:0.5rem ;
    
       padding-left:0.5rem ;
  padding-right: 0.5rem;
-   background-image: url(Images/Macchiato.jpg);
+   background-image: url(Images/Machiato.jpg);
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -806,7 +806,7 @@ padding-left:0.5rem ;
    
       padding-left:0.5rem ;
  padding-right: 0.5rem;
-   background-image: url(Images/Restretto.jpg);
+   background-image: url(Images/Ristretto.jpg);
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -841,7 +841,7 @@ padding-left:0.5rem ;
    
       padding-left:0.5rem ;
  padding-right: 0.5rem;
-   background-image: url(Images/Ice-coffe.jpg);
+   background-image: url(Images/Iced-Coffee.jpg);
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -1310,7 +1310,7 @@ z-index: 2;
 }
 
 
-.question:has(.question-btn:focus) .popup-answer{
+.question:has(.question-btn:hover) .popup-answer{
 
   animation: move-answer  1s ease forwards;
 }
@@ -2582,7 +2582,7 @@ background-color: #936526;
 
  .Machiato-photo{
    justify-content: left;
-background-image: url(Images/Macchiato.jpg);
+background-image: url(Images/Machiato.jpg);
 background-size: cover;
 background-position: center;
 width: clamp(4rem,34vw,15rem) ;
@@ -2746,7 +2746,7 @@ background-color: #936526;
 
  .Ristretto-photo{
    justify-content: left;
-background-image: url(Images/Restretto.jpg);
+background-image: url(Images/Ristretto.jpg);
 background-size: cover;
 background-position: center;
 width: clamp(4rem,34vw,15rem) ;
@@ -2862,7 +2862,7 @@ background-color: #936526;
 
  .Iced-Coffee-photo{
    justify-content: left;
-background-image: url(Images/Cold-brew.jpg);
+background-image: url(Images/Iced-Coffee.jpg);
 background-size: cover;
 background-position: center;
 width: clamp(4rem,34vw,15rem) ;
