@@ -25,7 +25,7 @@ const FavoritePic=document.createElement("div");
     FavoritePic.className="FavoritPic";
 
     FavoritePic.style.backgroundImage=`url("${c.Image}")`;
-    
+    console.log(c.Image);
 
      FavoriteCoffee.appendChild(FavoritePic);
 

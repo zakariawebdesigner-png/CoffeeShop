@@ -208,7 +208,7 @@ export const Coffees = [
     id: 21,
     Name: "Machiato",
     Price: 4.5,
-    Image: "../Images/Macchiato.jpg",
+    Image: "../Images/Machiato.jpg",
 
     option: {
 
@@ -369,7 +369,7 @@ export const Coffees = [
     id: 25,
     Name: "Ristretto",
     Price: 3,
-    Image: "../Images/Restretto.jpg",
+    Image: "../Images/Ristretto.jpg",
 
     option: {
 
@@ -448,7 +448,7 @@ export const Coffees = [
     id: 27,
     Name: "Iced-Coffee",
     Price: 4,
-    Image: "../Images/Ice-coffe.jpg",
+    Image: "../Images/Iced-coffee.jpg",
 
     option: {
 
