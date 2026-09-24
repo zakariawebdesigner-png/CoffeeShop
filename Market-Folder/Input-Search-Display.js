@@ -30,6 +30,10 @@ function Search(){
 
              }
 
+             else{
+                return [];
+             }
+
     });
 
     return Name;

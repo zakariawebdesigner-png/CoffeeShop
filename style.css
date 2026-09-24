@@ -2169,12 +2169,12 @@ width: 40vw;
 
 .how-many button{
 
-    font-size: clamp(0.6rem,5vw,2rem);
+font-size: clamp(0.5rem,5vw,1rem);
 background-color: wheat;
 border: none;
 border-radius: 0.3rem;
-width: clamp(0.8rem,20vw,1.5rem);
-height: clamp(0.8rem,20vw,1.5rem);
+height: fit-content;
+width: clamp(0.8rem,6vw,1.4rem);
 
 
 }

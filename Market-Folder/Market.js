@@ -85,6 +85,9 @@ InitializeCoffeeMenue();
 
 SearchForCoffee.addEventListener("input",()=>{
     
+  InputsNameArray=Search();
+
+  if(InputsNameArray.length==0)return;
          SearchResult_Container.style.opacity="1";
                   SearchResult_Container.style.pointerEvents="all";
 
@@ -92,7 +95,7 @@ SearchForCoffee.addEventListener("input",()=>{
                                         Square.style.poi="1";
 
    
-  InputsNameArray=Search();
+  
 
 
  CreateElement(InputsNameArray,Coffees);
