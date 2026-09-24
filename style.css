@@ -1310,7 +1310,7 @@ z-index: 2;
 }
 
 
-.question:has(.question-btn:active) .popup-answer{
+.question:has(.question-btn:focus) .popup-answer{
 
   animation: move-answer  1s ease forwards;
 }
@@ -2106,7 +2106,7 @@ z-index: 10;
 .Milk p{
    
    font-weight: 600;
-   color:    #633f0c;
+   color:#633f0c;
    padding-left: 0.7rem;
 }
 
@@ -2880,6 +2880,13 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 .Iced-Coffee-text{
   
   position: absolute;
+    top: -15px;
+left:47.87%;
+  font-size: clamp(0.3rem,5vw,1rem);
+  flex-shrink: 0;
+  color: #e2b679;
+  font-weight: 600;
+
 }
 
   .Viennese-body{
