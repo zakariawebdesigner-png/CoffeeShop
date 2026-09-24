@@ -1848,8 +1848,8 @@ transform: rotate(180deg);
 .photo-buying-container{
     position: relative;
   display: flex;
-
-  justify-content: space-around;
+  align-self: center;
+  justify-content: space-between;
   width: 97%;
   height: fit-content;
   padding-bottom: 0.5rem;
@@ -1879,9 +1879,9 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 .Latte-text{
   
   position: absolute;
-    top: -15px;
+    bottom:70%; 
 left:50%;
-  font-size: clamp(0.3rem,5vw,1rem);
+  font-size: clamp(0.3rem,5vw,2rem);
   
   color: #e2b679;
   font-weight: 600;
@@ -1890,15 +1890,15 @@ left:50%;
 
 
 .sizes{
-align-self: flex-end;
+align-self: center;
 display: flex;
 flex-direction: column;
-
-width: clamp(4rem,56vw,14rem);
+margin-top: 5%;
+width: clamp(4rem,56vw,30rem);
 height: clamp(3rem,20vw,7rem);
 background-color: #dcc3a1;
 box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-top: clamp(0.3rem,7vw,1.5rem);
+
 border-radius:  0.5rem;
 }
 
@@ -1950,9 +1950,13 @@ margin-top: 0;
 display: flex;
 flex-direction: column;
 align-self: center;
+justify-content: center;
 width:93%;
 max-width: 30rem;
-height: fit-content;
+
+
+height:fit-content;
+
 border-radius: 0.7rem;
 background-color: #e4b97d;
 box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
@@ -1966,34 +1970,19 @@ display: flex;
 align-items: center;
 gap: 20px;
 width: 100%;
-height: clamp(0.3rem,30vw,2rem);
+height: fit-content;
 
 }
 
-
-
-
-
-
-@media (min-width:600px) {
-  
-.shugar-container{
-padding-top: 0.6rem;
-}
-
-
-
-.Extra{
-
- justify-content: space-around;
+.Extra p{
+   
+   font-weight: 600;
+   color: #633f0c;
+       font-size: clamp(1rem,5vw,1.7rem);
+       
 
 
 }
-
-
-
-}
-
 
 input[type="number"] {
     appearance: textfield;
@@ -2009,8 +1998,10 @@ input[type="number"]::-webkit-outer-spin-button {
 
 
 .shugar{
-width: clamp(0.8rem,25vw,1.1rem);
-height: 1.5rem;
+width: 5%;
+height: 40%;
+font-size: clamp(0.5rem,5vw,2rem);
+
   margin-left: 1px;
   margin-right: 1px;
   padding-left: 0.5rem;
@@ -2033,11 +2024,12 @@ height: 1.5rem;
 
 .minus,.pluss{
 
-font-size: larger;
+font-size: clamp(0.5rem,5vw,1rem);
 background-color: wheat;
 border: none;
 border-radius: 0.3rem;
-width: clamp(0.8rem,20vw,1.5rem);
+height: fit-content;
+width: clamp(0.8rem,6vw,1.4rem);
 }
 
 
@@ -2047,20 +2039,12 @@ width: clamp(0.8rem,20vw,1.5rem);
   width: 100%;
   align-items: center;
   gap: 8px;
-  height: clamp(0.3rem,30vw,2rem);
+  height: fit-content;
   padding-left: 0.5rem;
 
 }
 
-.tempreture p{
-   
-   font-weight: 600;
-   color: #633f0c;
-       font-size: clamp(0.1rem,10vw,1rem);
-       
 
-
-}
 
 
 
@@ -2113,16 +2097,14 @@ li:hover{
 display: flex;
 width: 100%;
 height: fit-content;
-gap: 20px;
+gap: 25px;
 align-items: center;
-
 z-index: 10;
 }
 
 .Milk p{
    
-   font-weight: 600;
-   color:#633f0c;
+   
    padding-left: 0.7rem;
 }
 

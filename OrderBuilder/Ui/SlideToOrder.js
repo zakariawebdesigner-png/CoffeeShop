@@ -53,7 +53,8 @@
 
                possition = Math.min(possition, 150);
 
-          possition = Math.min(possition, 145); // Don't allow it to go before 0px possition = Math.max(possition, 0);
+          possition = Math.min(possition, 145);
+              possition = Math.max(possition, 0);
                if(possition==145){
                     possition=145;
                }
