@@ -1952,11 +1952,12 @@ flex-direction: column;
 align-self: center;
 width:93%;
 max-width: 30rem;
-height: clamp(3rem,40vw,65rem);
+height: fit-content;
 border-radius: 0.7rem;
 background-color: #e4b97d;
 box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 gap: 10%;
+padding: 0.3rem;
 }
 
 
@@ -1978,7 +1979,7 @@ height: clamp(0.3rem,30vw,2rem);
 @media (min-width:600px) {
   
 .shugar-container{
-padding-top: 1rem;
+padding-top: 0.6rem;
 }
 
 
